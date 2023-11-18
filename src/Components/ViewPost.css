@@ -1,0 +1,139 @@
+.Card-layout {
+    width: 750px;
+    background-color: #e9e9e9;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color:black;
+    text-align: left;
+    margin:20px;
+    margin-top: 60px;
+}
+
+.contView{
+    color:black;
+    font-size:16px;
+}
+
+.imageUrl11 {
+    width:550px;
+    height:450px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin: 10px;
+    margin-left: 0px;
+  }
+
+  .postInfo1 {
+    justify-content: space-between;
+    margin-bottom: 10px;
+    display: flex;
+  }
+  
+  .inlineTextLbl1 {
+    font-size: 20px;
+    font-weight: bold;
+    color:black;
+  }
+
+  .comments-section {
+    margin-top: 20px;
+    background-color: whitesmoke;
+    padding:10px;
+    border-radius: 10px;
+  }
+
+  .comment-content {
+    margin-bottom: 10px;
+  }
+
+  .no-comments{
+    background-color: white;
+    color:black;
+    font-size:14px;
+    padding:5px;
+    width:95%;
+    border-radius: 5px;
+    border: 1px solid rgb(196, 196, 196);
+  }
+  
+
+  .img1{
+    
+    width:30px;
+    height:30px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-image: url('./images/remove.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin: 1px;
+    background-color: whitesmoke;
+    cursor: pointer;
+    border-radius: 5px;
+    
+  }
+
+  .img2{
+    background-color: transparent;
+    border: none;
+    color: white;
+    cursor: pointer;
+    background-color:#1e0b70 ;
+    font-family: cursive;
+    align-items: right;
+    
+  }
+
+  .rws{
+    display:flex;
+    background-color: whitesmoke;
+    align-items: left;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+
+  .cmt-cntent{
+    color:black;
+    font-size:14px;
+    padding:5px;
+    width:90%;
+    border-radius: 5px;
+    border: 1px solid rgb(196, 196, 196);
+    background-color: #e9e9e9;
+
+  }
+  .upvotes1 {
+    font-size: 16px;
+    color: grey;
+    font-weight: bold;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+
+  .alert1 {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .success1 {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  .error1{
+    color: rgb(168, 6, 6);
+    margin-top: 20px;
+  }
+  
+  .alert1.success1.fade-out {
+    animation: fadeOut 3s ease-in-out forwards;
+  }
+  
+
+
+  

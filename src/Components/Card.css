@@ -1,0 +1,40 @@
+.Card {
+    width: 750px;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color:black;
+    text-align: left;
+    margin:20px;
+}
+  
+  .postInfo {
+    justify-content: space-between;
+    margin-bottom: 10px;
+    display: flex;
+  }
+  
+  .time {
+    font-size: 14px;
+    color:grey;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .upvotes {
+    font-size: 16px;
+    color: grey;
+    font-weight: bold;
+    margin-top: 10px;
+  }
+  
+  .inlineTextLbl {
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color:black;
+  }
+  
+
+  

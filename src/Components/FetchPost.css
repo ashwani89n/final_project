@@ -1,0 +1,170 @@
+  
+  .searchDiv1 {
+    height: 20px;
+    width: 250px;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-top: 13px;
+    padding: 7px; 
+    font-size: 16px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    padding-left: 10px;
+}
+
+.searchDiv1:focus {
+    outline: none;
+    border: 1px solid #979797;
+}
+
+.header-contain1 {
+    background-color: #1e0b70;;
+    color: #fff;
+    display: flex;
+    justify-content: space-between; 
+    width: 100%; 
+    position: fixed; 
+    top: 0;
+    left: 0;
+    z-index: 1; 
+    height: 60px;
+    font-family: cursive;
+  }
+
+  .row{
+    display:flex;
+  }
+  
+  .post{
+    height:300px;
+    margin-right: 50px;
+    border-radius: 18px;
+    background-image: url('./images/image-PhotoRoom.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    display:flex;
+  }
+  
+
+  .idea-img{
+    background-image: url('./images/mind-PhotoRoom.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 200px;
+    height:100px;
+    margin-left: 100px;
+    margin-top: 80px;
+  }
+  .idea-img1{
+    background-image: url('./images/clapperBrd2-PhotoRoom.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width:300px;
+    height:200px;
+    margin-left: 80px;
+    margin-top: 60px;
+  }
+
+   
+  .logo2{
+    font-size: 24px;
+    margin: 0;
+    padding: 15px;
+    height:50px;
+    margin-left:180px;
+  }
+
+  .whole-page{
+    width:700px;
+    align-items: center;
+    text-align: center;
+    background-color: #e9e9e9;
+    margin-left: 0px;
+    margin-top: 20px;
+  }
+
+  .ReadPosts{
+    margin-top: 0px;
+  }
+
+  .newPosts{
+    width:400px;
+    margin-top: 20px;
+    background-color: #e9e9e9;
+    border-radius: 10px;
+  }
+
+  .rows{
+    display:flex;
+  }
+
+
+  .post-txt{
+    font-size: 20px;
+    color:#1e0b70;
+    font-family: cursive;
+    font-weight: bold;
+    padding:10px;
+    background-color:#6c5fa4;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .post-txt:hover{
+    border: 1px solid #1e0b70;
+  }
+
+  .create-subtxt{
+    font-size: 16x;
+    color:grey;
+    font-family: cursive;
+    font-weight: normal;
+    padding:5px;
+  }
+  
+    .post-icon{
+    background-image: url('./images/creation-icon-Photo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width:250px;
+    height:120px;
+    margin-left: 120px;
+  }
+  
+.sort{
+  display: flex;
+  margin-top: 70px;
+}
+
+.orderbyTxt{
+  color:#1e0b70;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: cursive;
+  margin-left: 20px;
+  margin-top: 5px;
+  margin-right: 5px;
+}
+
+.latest{
+  border: none;
+  color:white;
+  cursor: pointer;
+  background-color:#6c5fa4 ;
+  font-family: cursive;
+  align-items: right;
+  margin-right: 5px;
+}
+.latest1{
+  border: none;
+  color:white;
+  cursor: pointer;
+  background-color:#979797 ;
+  font-family: cursive;
+  align-items: right;
+  margin-right: 5px;
+}
+
+.latest:hover, .latest1:hover{
+  border:1px solid grey;
+}

@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.add86bc0.css",
+    "main.js": "/static/js/main.ef9f1ead.js",
+    "static/media/flip_icon.jpg": "/static/media/flip_icon.6849ab070606720a4f66.jpg",
+    "static/media/codepath_events.jpg": "/static/media/codepath_events.4ec9835f876171a4631d.jpg",
+    "static/media/panthers_bg1.png": "/static/media/panthers_bg1.148fd86f84359ab7ec1d.png",
+    "static/media/pride.jpg": "/static/media/pride.b252f8385bc100e0a49c.jpg",
+    "static/media/creation-icon-Photo.png": "/static/media/creation-icon-Photo.86c678b0efffbb0e6c5d.png",
+    "static/media/codepath_idea_incubator1.jpg": "/static/media/codepath_idea_incubator1.d225bf59f1349574904d.jpg",
+    "static/media/clapperBrd2-PhotoRoom.png": "/static/media/clapperBrd2-PhotoRoom.768ffd64e9e8e6dd1c87.png",
+    "static/media/mind-PhotoRoom.png": "/static/media/mind-PhotoRoom.4479c20036ef66328806.png",
+    "static/media/image-PhotoRoom.jpg": "/static/media/image-PhotoRoom.4e017ebc716fbddcf4b1.jpg",
+    "static/media/codepath_diverse_conv.jpg": "/static/media/codepath_diverse_conv.a8ee53db8eb1eb6af8de.jpg",
+    "index.html": "/index.html",
+    "main.add86bc0.css.map": "/static/css/main.add86bc0.css.map",
+    "main.ef9f1ead.js.map": "/static/js/main.ef9f1ead.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.add86bc0.css",
+    "static/js/main.ef9f1ead.js"
+  ]
+}

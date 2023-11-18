@@ -1,0 +1,191 @@
+.imageUrl, .titlePost{ 
+    width: 500px;
+    height: 30px;
+    border-radius: 8px;
+    border: 1px solid whitesmoke;
+    font-size: 16px;
+    padding-left: 10px;
+    font-size: 16px;
+    color:black;
+    background-color: white;
+}
+
+textarea{ 
+    width:490px; 
+    border-radius: 8px;
+    border: 1px solid whitesmoke;
+    font-size: 16px;
+    padding: 10px;
+    font-family: Arial;
+    font-size: 16px;
+    color:black;
+    margin-top: 5px;
+    background-color: white;
+    height:250px;
+    resize: none;
+}
+
+input[type=submit], .deleteButton {
+    height: 40px;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #1e0b70;
+    color:white;
+    cursor: pointer;
+    transition: border-color 0.25s;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 0px;
+    font-style: cursive;
+    margin-right: 10px;
+  }
+.deleteButton{
+  padding-left:30px;
+  padding-right: 30px;
+}
+  
+
+input[type=submit]:hover, .deleteButton:hover {
+    border-color: 1px solid white;
+}
+
+.titlePost:focus,.contentPost:focus, .imageUrl:focus{
+    border-color: 2px solid#979797; 
+}
+
+.alert {
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    font-weight: bold;
+  }
+  
+  .success {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+  .error{
+    color: rgb(168, 6, 6);
+    padding:0px;
+    margin: 0px;
+  }
+  
+  .alert.success.fade-out {
+    animation: fadeOut 3s ease-in-out forwards;
+  }
+ 
+  
+  .searchDiv {
+    height: 20px;
+    width: 250px;
+    border: 1px solid white;
+    border-radius: 15px;
+    margin-top: 13px;
+    padding: 5px; 
+    font-size: 16px;
+    margin-right: 20px;
+}
+
+.searchDiv:focus {
+    outline: none;
+    border: 1px solid #979797;
+}
+
+.header-contain {
+    background-color: #1e0b70;;
+    color: #fff;
+    display: flex;
+    justify-content: space-between; 
+    width: 100%; 
+    position: fixed; 
+    top: 0;
+    left: 0;
+    z-index: 1; 
+    height: 60px;
+    font-family: cursive;
+  }
+
+  .home-icon{
+    background-image: url('./images/home_icon.jpg');
+    height:30px;
+    width:60px;
+    left:0;
+    padding:10px;
+    margin-top: 5px;
+    background-size:contain;
+    background-repeat: no-repeat;
+  }
+
+  .createPost,.post,.post1{
+    width:540px;
+    background-color: #e9e9e9;
+    margin-left: 0px;
+    padding:20px;
+    margin-top: 50px;
+  }
+
+  .postTxt{
+    color:#1e0b70;
+    font-size:28px;
+    font-weight:bold;
+    font-family: cursive;
+    margin-top: 50px;
+    margin-left: 25px;
+  }
+  .postSubTxt{
+    color:grey;
+    font-size:16px;
+    font-weight:normal;
+    font-family: cursive;
+    padding-left:20px;
+    padding-right:20px;
+    margin-left: 25px;
+    margin-top: 5px;
+  }
+
+  .row{
+    display:flex;
+  }
+  
+  .post{
+    height:300px;
+    margin-right: 50px;
+    border-radius: 18px;
+    background-image: url('./images/image-PhotoRoom.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    display:flex;
+  }
+  
+
+  .idea-img{
+    background-image: url('./images/mind-PhotoRoom.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 200px;
+    height:100px;
+    margin-left: 100px;
+    margin-top: 80px;
+  }
+  .idea-img1{
+    background-image: url('./images/clapperBrd2-PhotoRoom.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    width:300px;
+    height:200px;
+    margin-left: 80px;
+    margin-top: 60px;
+  }
+
+   
+  .logo1{
+    font-size: 24px;
+    margin: 0;
+    padding: 15px;
+    height:50px;
+  }
+

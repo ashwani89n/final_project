@@ -1,0 +1,38 @@
+.header-container {
+    background-color: #1e0b70;;
+    color: #fff;
+    display: flex;
+    justify-content: space-between; 
+    width: 100%; 
+    position: fixed; 
+    top: 0;
+    left: 0;
+    z-index: 1; 
+    height: 65px;
+    font-family: cursive;
+  }
+  
+  .logo {
+    font-size: 24px;
+    margin: 0;
+    padding: 15px;
+    height:50px;
+  }
+  
+  .dashboard-button {
+    background-color: transparent;
+    border: none;
+    color: black;
+    cursor: pointer;
+    background-color:#fff ;
+    font-family: cursive;
+    align-items: right;
+    margin: 10px;
+  }
+
+
+.dashboard-button:hover{
+    border: 1px solid grey;
+  }
+  
+
