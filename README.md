@@ -2,7 +2,6 @@
 
 Submitted by: Ashwani Balakrishnan Neminimadathil
 
-
 Time spent: 3 days spent in total
 
 ## Required Features
@@ -22,6 +21,7 @@ The following **required** functionality is completed:
 * [x] Users can upvote any post for any number of times, but not downvote
 * [x] A previously created post can be edited from its post page
 * [x] A previously created post can be deleted from its post page
+* [x] Users can only edit and delete posts or delete comments by entering the secret key, which is set by the user during post creation
 ## Video Walkthrough
 
 Here's a walkthrough of implemented features:
