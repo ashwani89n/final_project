@@ -32,7 +32,7 @@ const CreatePost = () => {
         try {
             const { data, error } = await supabase
                 .from('Posts')
-                .insert({ title: post.title, content: post.content, imageUrl: post.imageUrl, key: randomKey, comments:' ', upvotes_count:0 , downvotes_count:0})
+                .insert({ title: post.title, content: post.content, imageUrl: post.imageUrl, key: randomKey, upvotes_count:0 , downvotes_count:0})
                 .select();
 
             console.log("Insertion result:", { data, error });
