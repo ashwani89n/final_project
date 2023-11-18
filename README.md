@@ -1,28 +1,32 @@
-# WEB102 Project 7 - Crewmates! 
+# WEB102 Final Project - Talkin' Panthers
 
 Submitted by: Ashwani Balakrishnan Neminimadathil
 
-Crewmates is a web application that allows the user to assemble a team for a Tech Company. The user can join the Team in various departments for the available roles. This information can be updated or deleted based on the requirement.
 
-Time spent: 7 hours spent in total
+Time spent: 3 days spent in total
 
 ## Required Features
 
 The following **required** functionality is completed:
 
-* [x] A create form allows users to add new crewmates
-* [x] Users can name the crewmate, assign an employee id, designation and department as well.
-* [x] The site displays a summary page of all the user’s added crewmates
-* [x] A previously created crewmate can be updated from the crewmate list
-* [x] A previously created crewmate can be deleted from the crewmate list
-* [x] Each crewmate has a direct, unique link to an info page about them
-* [x] A crewmate can be given a category upon creation which restricts their attributes, such as a development team role (project manager, product owner, etc.)
-* [x] The site displays summary statistics about a user’s crew on their crew page, such as the count of members within each departments
+* [x] A create form that allows the user to create posts
+* [x] Posts must contain a title, and optionally additional textual content and/or an image added as an external image URL
+* [x] A home feed displaying previously created posts
+* [x] By default, only the time created, title, and upvotes count for each post is shown on the posts feed
+* [x] Clicking on a post shall direct the user to a new page for the selected post
+* [x] Users can sort posts by either their created time or upvotes count
+* [x] Users can search for posts by title
+* [x] A separate post page for each created post, where any additional information is shown, including content, image, and comments
+* [x] Users can leave comments underneath a post on the post page
+* [x] Each post should have an upvote button on the post page. Each click increases its upvotes count by one
+* [x] Users can upvote any post for any number of times, but not downvote
+* [x] A previously created post can be edited from its post page
+* [x] A previously created post can be deleted from its post page
 ## Video Walkthrough
 
 Here's a walkthrough of implemented features:
 
-<img src='https://github.com/ashwani89n/crew_mates/blob/main/Ashwani_CrewMates.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/ashwani89n/final_project/blob/main/Ashwani_Talkin_Panthers.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with Licecap Tool
 
